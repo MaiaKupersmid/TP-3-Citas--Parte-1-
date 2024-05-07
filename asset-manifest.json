@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TP-3-Citas--Parte-1-/static/css/main.7148336a.css",
+    "main.js": "/TP-3-Citas--Parte-1-/static/js/main.28a274b7.js",
+    "static/js/453.8c80987c.chunk.js": "/TP-3-Citas--Parte-1-/static/js/453.8c80987c.chunk.js",
+    "index.html": "/TP-3-Citas--Parte-1-/index.html",
+    "main.7148336a.css.map": "/TP-3-Citas--Parte-1-/static/css/main.7148336a.css.map",
+    "main.28a274b7.js.map": "/TP-3-Citas--Parte-1-/static/js/main.28a274b7.js.map",
+    "453.8c80987c.chunk.js.map": "/TP-3-Citas--Parte-1-/static/js/453.8c80987c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7148336a.css",
+    "static/js/main.28a274b7.js"
+  ]
+}
