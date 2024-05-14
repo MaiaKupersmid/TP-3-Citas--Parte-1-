@@ -1,7 +1,9 @@
-import Card from "./componentes/card";
-import Form from "./componentes/form";
+import Listado from "./componentes/listado/listado.jsx";
+import Form from "./componentes/form/form.jsx";
+import { useState } from "react";
 
 function App() {
+  const[citas, setCitas] = useState([]);
   return (
     <>
     <div className="App">
@@ -12,31 +14,12 @@ function App() {
           <div class="row">
             <div class="one-half column">
               <h2>Crear mi Cita</h2>
-              <Form
+              <Form setCitas={setCitas} citas={citas}
               />
         </div>
         <div class="one-half column">
           <h2>Administra tus citas</h2>
-          <Card
-            mascota= "Nina"
-            dueño= "Martin"
-            fecha= "2021-08-05" 
-            hora= "08:20"
-            sintomas= "Le duele la pierna"
-          />
-          <Card
-            mascota= "Sifon"
-            dueño= "Flecha"
-            fecha= "2023-08-05" 
-            hora= "09:24"
-            sintomas= "Duerme mucho"
-          />
-          <Card
-            mascota= "Floki"
-            dueño= "Ari"
-            fecha= "2023-08-05" 
-            hora= "16:15"
-            sintomas= "No está comiendo"
+          <Listado citas={citas} setCitas={setCitas}
           />
         </div>
       </div>
